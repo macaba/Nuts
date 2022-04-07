@@ -15,3 +15,9 @@ With heater+ at 15V, and heater- swept from 0V to -15V (to give 15-30V heater vo
 Powered from +/-14V supply, with positive reference output going into 0.1 - 10Hz LNA.
 
 ![VRE102CA](images/VRE102CA.png)
+
+## MOSFET Idss leakage with 0V gate at 21°C
+
+Using Keithley 617 electrometer, and the voltage output capability, to sweep the drain pin of MOSFETs from 0.1V to maxV, gate pin and source pin shorted together (and wired into electrometer input).
+
+![Leakage](images/MOSFET%20leakage.png)
