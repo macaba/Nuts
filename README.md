@@ -52,6 +52,8 @@ MickleT has provided a modified Solartron 7081 firmware which resolves an issue 
 <a name="s7081inl"/>
 ## Solartron 7081 linearity
 
+Using Marco Reps' Fluke calibrator and 3458A to test INL of S7081.
+
 ![S7081INL](images/S7081%20linearity.png)
 <a name="k6500inl"/>
 ## Keithley DMM6500 linearity
