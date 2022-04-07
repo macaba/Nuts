@@ -1,6 +1,6 @@
 # Nuts
 
-An assortment of data and observations regarding electronics metrology and precision analog electronics
+An assortment of data and observations regarding electronics metrology and precision analog electronics.
 
 ## ADR1399 output voltage deviation vs. heater voltage
 
@@ -10,7 +10,7 @@ With heater+ at 15V, and heater- swept from 0V to -15V (to give 15-30V heater vo
 
 ![ADR1399](images/ADR1399%20output%20voltage%20deviation%20vs%20heater%20voltage.png)
 
-## ADR1399 output voltage noise vs. zener supply current
+## ADR1399 output voltage noise vs. reference current
 
 It is known that the internal schematic of LM399 means that as long as a minimum current condition is met, there should not be any change in output voltage noise for higher currents as the actual zener current is fixed. This is confirmation that the ADR1399 is the same. 1mA is below the allowable range of shunt current, it is shown here as a point of interest.
 
