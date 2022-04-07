@@ -11,8 +11,9 @@ An assortment of data and observations regarding electronics metrology and preci
 [Keithley DMM6500 linearity](#k6500inl)  
 [Keithley DMM6500 leakage](#k6500leakage)  
 [MOSFET Idss leakage with 0V gate at 21°C](#mosfetleakage)  
-[OPA140 CMRR](#opa140cmrr)
-[LT3042 & LT3093 low frequency noise](#ldonoise)
+[OPA140 CMRR](#opa140cmrr)  
+[LT3042 & LT3093 low frequency noise](#ldonoise)  
+[G3VM-41GR6 SSR off-leakage](#ssrleakage)
 <a name="adr1399heater"/>
 ## ADR1399 output voltage deviation vs. heater voltage
 
@@ -68,7 +69,7 @@ Connected a lead from the PE screw on the rear panel, to the current input, digi
 <a name="mosfetleakage"/>
 ## MOSFET Idss leakage with 0V gate at 21°C
 
-Using Keithley 617 electrometer, with +/-100V DAC output, to sweep the drain pin of MOSFETs from 0.1V to maxV, gate pin and source pin shorted together (and wired into electrometer input). FOM is (10V/(datasheet RDS at 10V))/(leakage at 10V) to provide a quick comparison point.
+Using Keithley 617 electrometer, with +/-100V DAC output, to sweep the drain pin of MOSFETs from 0.1V to maxV, gate pin and source pin shorted together and wired into electrometer input. FOM is (10V/(datasheet RDS at 10V))/(leakage at 10V) to provide a quick comparison point.
 
 ![Leakage](images/MOSFET%20leakage.png)
 <a name="opa140cmrr"/>
@@ -83,3 +84,9 @@ OPA140 configured as unity gain buffer. DMM measuring input-to-output. Measured 
  22uF Cset. Datasheet hides the 0.1-10 Hz region for good reason...
  
 ![Leakage](images/LT%20LDO%20noise.png)
+<a name="ssrleakage"/>
+## G3VM-41GR6 SSR off-leakage
+
+Using Keithley 617 electrometer, with +/-100V DAC output, to sweep a pin of the SSR from 0.1V to 40V. Other pin wired to electrometer input.
+
+![SSR leakage](images/G3VM-41GR6%20off%20leakage.png)
