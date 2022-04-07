@@ -7,9 +7,9 @@ An assortment of data and observations regarding electronics metrology and preci
 [VRE102CA voltage reference noise in batch of 8](#vre102ca)  
 [LTZ1000 unheated TC](#ltz1000unheated)  
 [Solartron 7081 warmup with 10V input, comparison of 2 firmwares](#s7081warmup)  
-[MOSFET Idss leakage with 0V gate at 21°C](#mosfetleakage)  
 [Keithley DMM6500 linearity](#k6500inl)  
 [Keithley DMM6500 leakage](#k6500leakage)  
+[MOSFET Idss leakage with 0V gate at 21°C](#mosfetleakage)  
 <a name="adr1399heater"/>
 ## ADR1399 output voltage deviation vs. heater voltage
 
@@ -46,12 +46,6 @@ MickleT has provided a modified Solartron 7081 firmware which resolves an issue 
 
 ![S7081](images/S7081%20startup.png)
 <a name="mosfetleakage"/>
-## MOSFET Idss leakage with 0V gate at 21°C
-
-Using Keithley 617 electrometer, with +/-100V DAC output, to sweep the drain pin of MOSFETs from 0.1V to maxV, gate pin and source pin shorted together (and wired into electrometer input). FOM is (10V/(datasheet RDS at 10V))/(leakage at 10V) to provide a quick comparison point.
-
-![Leakage](images/MOSFET%20leakage.png)
-<a name="k6500inl"/>
 ## Keithley DMM6500 linearity
 
 DMM6500 set to 1NPLC, high impedance input, autozero enabled.
@@ -64,3 +58,9 @@ Per step; 80 seconds to allow the PWM DAC output to settle, approximately 1 minu
 Connected a lead from the PE screw on the rear panel, to the current input, digitize mode with 100uA range. 140nApp. Lead is unplugged halfway through the trace.
 
 ![K6500](images/DMM6500%20PE%20leakage.png)
+## MOSFET Idss leakage with 0V gate at 21°C
+
+Using Keithley 617 electrometer, with +/-100V DAC output, to sweep the drain pin of MOSFETs from 0.1V to maxV, gate pin and source pin shorted together (and wired into electrometer input). FOM is (10V/(datasheet RDS at 10V))/(leakage at 10V) to provide a quick comparison point.
+
+![Leakage](images/MOSFET%20leakage.png)
+<a name="k6500inl"/>
