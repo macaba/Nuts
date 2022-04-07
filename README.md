@@ -12,7 +12,7 @@ With heater+ at 15V, and heater- swept from 0V to -15V (to give 15-30V heater vo
 
 ## ADR1399 output voltage noise vs. reference current
 
-It is known that the internal schematic of LM399 means that as long as a minimum current condition is met, there should not be any change in output voltage noise for higher currents as the actual zener current is fixed. This is confirmation that the ADR1399 is the same. 1mA is below the allowable range of shunt current, it is shown here as a point of interest.
+It is known that the internal schematic of LM399 means that as long as a minimum current condition is met, there should not be any change in output voltage noise for higher currents as the actual zener current is fixed. This is confirmation that the ADR1399 is the same. 1mA is below the allowable range of reference current, it is shown here as a point of interest.
 
 ![ADR1399 noise](images/ADR1399%20output%20noise%20vs%20zener%20current.png)
 
