@@ -4,7 +4,7 @@ An assortment of data and observations regarding electronics metrology and preci
 
 [ADR1399 output voltage deviation vs. heater voltage](#adr1399heater)  
 [ADR1399 output voltage noise vs. reference current](#adr1399referencecurrent)  
-[VRE102CA voltage reference noise from batch of 8](#vre102ca)  
+[VRE102CA voltage reference noise in batch of 8](#vre102ca)  
 [LTZ1000 unheated TC](#ltz1000unheated)  
 [Solartron 7081 warmup with 10V input, comparison of 2 firmwares](#s7081warmup)  
 [MOSFET Idss leakage with 0V gate at 21°C](#mosfetleakage)  
@@ -23,7 +23,7 @@ It is known that the internal schematic of LM399 means that as long as a minimum
 
 ![ADR1399 noise](images/ADR1399%20output%20noise%20vs%20zener%20current.png)
 <a name="vre102ca"/>
-## VRE102CA voltage reference noise from batch of 8
+## VRE102CA voltage reference noise in batch of 8
 
 Powered from +/-14V supply, with positive reference output going into 0.1 - 10Hz LNA.
 
