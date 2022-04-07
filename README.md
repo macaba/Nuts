@@ -45,7 +45,7 @@ Top line in each series is the heat up (using internal heater), bottom line is t
 MickleT has provided a modified Solartron 7081 firmware which resolves an issue with post-mux switching dwell time, to allow internal circuits to settle before taking zero reading.
 
 ![S7081](images/S7081%20startup.png)
-<a name="mosfetleakage"/>
+<a name="k6500inl"/>
 ## Keithley DMM6500 linearity
 
 DMM6500 set to 1NPLC, high impedance input, autozero enabled.
@@ -58,9 +58,9 @@ Per step; 80 seconds to allow the PWM DAC output to settle, approximately 1 minu
 Connected a lead from the PE screw on the rear panel, to the current input, digitize mode with 100uA range. 140nApp. Lead is unplugged halfway through the trace.
 
 ![K6500](images/DMM6500%20PE%20leakage.png)
+<a name="mosfetleakage"/>
 ## MOSFET Idss leakage with 0V gate at 21°C
 
 Using Keithley 617 electrometer, with +/-100V DAC output, to sweep the drain pin of MOSFETs from 0.1V to maxV, gate pin and source pin shorted together (and wired into electrometer input). FOM is (10V/(datasheet RDS at 10V))/(leakage at 10V) to provide a quick comparison point.
 
 ![Leakage](images/MOSFET%20leakage.png)
-<a name="k6500inl"/>
