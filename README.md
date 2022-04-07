@@ -22,6 +22,15 @@ Powered from +/-14V supply, with positive reference output going into 0.1 - 10Hz
 
 ![VRE102CA](images/VRE102CA.png)
 
+## LTZ1000 unheated TC
+
+Uncorrected TC of LTZ1000 = 33-37 PPM/C.
+Corrected TC with 17 ohm resistor = around 0 PPM/C.
+
+Top line in each series is the heat up (using internal heater), bottom line is the cool down.
+
+![LTZ1000](images/LTZ1000%20unheated%20TC.png)
+
 ## Solartron 7081 warmup with 10V input, comparison of 2 firmwares
 
 MickleT has provided a modified Solartron 7081 firmware which resolves an issue with post-mux switching dwell time, to allow internal circuits to settle before taking zero reading.
