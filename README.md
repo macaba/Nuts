@@ -53,4 +53,7 @@ Using Keithley 617 electrometer, with +/-100V DAC output, to sweep the drain pin
 <a name="k6500inl"/>
 ## Keithley DMM6500 linearity
 
+DMM6500 set to 1NPLC, high impedance input, autozero enabled.
+Per step; 80 seconds to allow the PWM DAC output to settle, approximately 1 minute of samples acquired and averaged to give a single value for the chart.
+
 ![K6500](images/DMM6500%20linearity.png)
