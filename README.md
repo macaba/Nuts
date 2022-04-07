@@ -8,6 +8,7 @@ An assortment of data and observations regarding electronics metrology and preci
 [LTZ1000 unheated TC](#ltz1000unheated)  
 [Solartron 7081 warmup with 10V input, comparison of 2 firmwares](#s7081warmup)  
 [MOSFET Idss leakage with 0V gate at 21°C](#mosfetleakage)  
+[Keithley DMM6500 linearity](#k6500inl)
 <a name="adr1399heater"/>
 ## ADR1399 output voltage deviation vs. heater voltage
 
@@ -49,3 +50,7 @@ MickleT has provided a modified Solartron 7081 firmware which resolves an issue 
 Using Keithley 617 electrometer, with +/-100V DAC output, to sweep the drain pin of MOSFETs from 0.1V to maxV, gate pin and source pin shorted together (and wired into electrometer input). FOM is (10V/(datasheet RDS at 10V))/(leakage at 10V) to provide a quick comparison point.
 
 ![Leakage](images/MOSFET%20leakage.png)
+<a name="k6500inl"/>
+## Keithley DMM6500 linearity
+
+![K6500](images/DMM6500%20linearity.png)
