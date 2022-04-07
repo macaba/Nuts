@@ -8,7 +8,8 @@ An assortment of data and observations regarding electronics metrology and preci
 [LTZ1000 unheated TC](#ltz1000unheated)  
 [Solartron 7081 warmup with 10V input, comparison of 2 firmwares](#s7081warmup)  
 [MOSFET Idss leakage with 0V gate at 21°C](#mosfetleakage)  
-[Keithley DMM6500 linearity](#k6500inl)
+[Keithley DMM6500 linearity](#k6500inl)  
+[Keithley DMM6500 leakage](#k6500leakage)  
 <a name="adr1399heater"/>
 ## ADR1399 output voltage deviation vs. heater voltage
 
@@ -57,3 +58,9 @@ DMM6500 set to 1NPLC, high impedance input, autozero enabled.
 Per step; 80 seconds to allow the PWM DAC output to settle, approximately 1 minute of samples acquired and averaged to give a single value for the chart.
 
 ![K6500](images/DMM6500%20linearity.png)
+<a name="k6500leakage"/>
+## Keithley DMM6500 leakage
+
+Connected a lead from the PE screw on the rear panel, to the current input, digitize mode with 100uA range. 140nApp. Lead is unplugged halfway through the trace.
+
+![K6500](images/DMM6500%20PE%20leakage.png)
