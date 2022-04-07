@@ -7,9 +7,12 @@ An assortment of data and observations regarding electronics metrology and preci
 [VRE102CA voltage reference noise in batch of 8](#vre102ca)  
 [LTZ1000 unheated TC](#ltz1000unheated)  
 [Solartron 7081 warmup with 10V input, comparison of 2 firmwares](#s7081warmup)  
+[Solartron 7081 linearity](#s7081inl)  
 [Keithley DMM6500 linearity](#k6500inl)  
 [Keithley DMM6500 leakage](#k6500leakage)  
 [MOSFET Idss leakage with 0V gate at 21°C](#mosfetleakage)  
+[OPA140 CMRR](#opa140cmrr)
+[LT3042 & LT3093 low frequency noise](#ldonoise)
 <a name="adr1399heater"/>
 ## ADR1399 output voltage deviation vs. heater voltage
 
@@ -45,6 +48,10 @@ Top line in each series is the heat up (using internal heater), bottom line is t
 MickleT has provided a modified Solartron 7081 firmware which resolves an issue with post-mux switching dwell time, to allow internal circuits to settle before taking zero reading.
 
 ![S7081](images/S7081%20startup.png)
+<a name="s7081inl"/>
+## Solartron 7081 linearity
+
+![S7081INL](images/S7081%20linearity.png)
 <a name="k6500inl"/>
 ## Keithley DMM6500 linearity
 
@@ -64,3 +71,15 @@ Connected a lead from the PE screw on the rear panel, to the current input, digi
 Using Keithley 617 electrometer, with +/-100V DAC output, to sweep the drain pin of MOSFETs from 0.1V to maxV, gate pin and source pin shorted together (and wired into electrometer input). FOM is (10V/(datasheet RDS at 10V))/(leakage at 10V) to provide a quick comparison point.
 
 ![Leakage](images/MOSFET%20leakage.png)
+<a name="opa140cmrr"/>
+## OPA140 CMRR
+
+OPA140 configured as unity gain buffer. DMM measuring input-to-output. Measured CMRR = 142dB.
+
+![Leakage](images/OPA140%20CMRR.png)
+<a name="ldonoise"/>
+## LT3042 & LT3093 low frequency noise
+ 
+ 22uF Cset. Datasheet hides the 0.1-10 Hz region for good reason...
+ 
+![Leakage](images/LT%20LDO%20noise.png)
