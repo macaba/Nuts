@@ -76,7 +76,7 @@ Connected a lead from the PE screw on the rear panel, to the current input, digi
 
 ### MOSFET Idss leakage with 0V gate at 21°C
 
-Using Keithley 617 electrometer, with +/-100V DAC output, to sweep the drain pin of MOSFETs from 0.1V to maxV, gate pin and source pin shorted together and wired into electrometer input. FOM is (10V/(datasheet RDS at 10V))/(leakage at 10V) to provide a quick comparison point.
+Using Keithley 617 electrometer, with +/-100V DAC output, to sweep the drain pin of MOSFETs from 0.1V to maxV, gate pin and source pin shorted together and wired into electrometer input. FOM is (10V/(datasheet RDS))/(leakage at 10V) to provide a quick comparison point.
 
 ![Leakage](images/MOSFET%20leakage.png)
 
