@@ -48,7 +48,7 @@ Corrected TC with 17 ohm resistor = around 0 PPM/C.
 Top line in each series is the heat up (using internal heater), bottom line is the cool down.
 
 ![LTZ1000](images/LTZ1000%20unheated%20TC.png)
-<a name="s7081warmup"/>
+
 ### Solartron 7081 warmup with 10V input, comparison of 2 firmwares
 
 MickleT has provided a modified Solartron 7081 firmware which resolves an issue with post-mux switching dwell time, to allow internal circuits to settle before taking zero reading.
