@@ -17,7 +17,7 @@ An assortment of data and observations regarding electronics metrology and preci
 [G3VM-41GR6 SSR off-leakage](#g3vm-41gr6-ssr-off-leakage)
 
 ## Schematics table of contents
-[Feedforward bootstrap](#ffbs)
+[Feedforward bootstrap](#feedforward-bootstrap)
 
 ## Charts
 ### ADR1399 output voltage deviation vs. heater voltage
