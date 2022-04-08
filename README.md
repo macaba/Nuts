@@ -2,7 +2,7 @@
 
 An assortment of data and observations regarding electronics metrology and precision analog electronics.
 
-## Charts TOC
+## Charts table of contents
 [ADR1399 output voltage deviation vs. heater voltage](#adr1399heater)  
 [ADR1399 output voltage noise vs. reference current](#adr1399referencecurrent)  
 [VRE102CA voltage reference noise in batch of 8](#vre102ca)  
@@ -16,7 +16,7 @@ An assortment of data and observations regarding electronics metrology and preci
 [LT3042 & LT3093 low frequency noise](#ldonoise)  
 [G3VM-41GR6 SSR off-leakage](#ssrleakage)
 
-## Schematics TOC
+## Schematics table of contents
 [Feedforward bootstrap](#ffbs)
 <a name="adr1399heater"/>
 ## Charts
