@@ -2,7 +2,7 @@
 
 An assortment of data and observations regarding electronics metrology and precision analog electronics.
 
-## Charts
+## Charts TOC
 [ADR1399 output voltage deviation vs. heater voltage](#adr1399heater)  
 [ADR1399 output voltage noise vs. reference current](#adr1399referencecurrent)  
 [VRE102CA voltage reference noise in batch of 8](#vre102ca)  
@@ -16,9 +16,10 @@ An assortment of data and observations regarding electronics metrology and preci
 [LT3042 & LT3093 low frequency noise](#ldonoise)  
 [G3VM-41GR6 SSR off-leakage](#ssrleakage)
 
-## Schematics
+## Schematics TOC
 [Feedforward bootstrap](#ffbs)
 <a name="adr1399heater"/>
+## Charts
 ### ADR1399 output voltage deviation vs. heater voltage
 
 The ADR1399 datasheet discusses the improved output dynamic impedance for reducing the change of output voltage vs. zener supply current. What about the heater supply voltage?
@@ -97,6 +98,7 @@ Using Keithley 617 electrometer, with +/-100V DAC output, to sweep a pin of the 
 
 ![SSR leakage](images/G3VM-41GR6%20off%20leakage.png)
 <a name="ffbs"/>
+## Schematics
 ### Feedforward bootstrap
 
 Improves CMRR and other similar effects.
