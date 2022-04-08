@@ -7,7 +7,7 @@ An assortment of data and observations regarding electronics metrology and preci
 [ADR1399 output voltage noise vs. reference current](#adr1399referencecurrent)  
 [VRE102CA voltage reference noise in batch of 8](#vre102ca)  
 [LTZ1000 unheated TC](#ltz1000unheated)  
-[Solartron 7081 warmup with 10V input, comparison of 2 firmwares](#s7081warmup)  
+[Solartron 7081 warmup with 10V input, comparison of 2 firmwares](#solartron-7081-warmup-with-10v-input-comparison-of-2-firmwares)  
 [Solartron 7081 linearity](#s7081inl)  
 [Keithley DMM6500 linearity](#k6500inl)  
 [Keithley DMM6500 leakage](#k6500leakage)  
