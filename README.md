@@ -17,8 +17,8 @@ An assortment of data and observations regarding electronics metrology and preci
 [G3VM-41GR6 SSR off-leakage](#ssrleakage)
 
 ## Schematics
+[Feedforward bootstrap](#ffbs)
 
-TBD sdg
 <a name="adr1399heater"/>
 ### ADR1399 output voltage deviation vs. heater voltage
 
@@ -97,3 +97,9 @@ OPA140 configured as unity gain buffer. DMM measuring input-to-output. Measured 
 Using Keithley 617 electrometer, with +/-100V DAC output, to sweep a pin of the SSR from 0.1V to 40V. Other pin wired to electrometer input.
 
 ![SSR leakage](images/G3VM-41GR6%20off%20leakage.png)
+<a name="ffbs"/>
+### Feedforward bootstrap
+
+Improves CMRR and other similar effects.
+
+![Bootstrap](images/Feedforward%20bootstrap.png)
