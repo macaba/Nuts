@@ -18,7 +18,6 @@ An assortment of data and observations regarding electronics metrology and preci
 
 ## Schematics
 [Feedforward bootstrap](#ffbs)
-
 <a name="adr1399heater"/>
 ### ADR1399 output voltage deviation vs. heater voltage
 
