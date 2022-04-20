@@ -26,13 +26,13 @@ The ADR1399 datasheet discusses the improved output dynamic impedance for reduci
 
 With heater+ at 15V, and heater- swept from 0V to -15V (to give 15-30V heater voltage range), output voltage coefficient is 0.37 ppm/V. Heater+ is fixed at 15V as this also supplies the zener current (through 2.35k Rshunt).
 
-<img src="images/ADR1399%20output%20voltage%20deviation%20vs%20heater%20voltage.png" height="305" style="max-width: 100%;">
+<img src="images/ADR1399%20output%20voltage%20deviation%20vs%20heater%20voltage.png" height="305">
 
 ### ADR1399 output voltage noise vs. reference current
 
 It is known that the internal schematic of LM399 means that as long as a minimum current condition is met, there should not be any change in output voltage noise for higher currents as the actual zener current is fixed. This is confirmation that the ADR1399 is the same. 1mA is below the allowable range of reference current, it is shown here as a point of interest.
 
-<img src="images/ADR1399%20output%20noise%20vs%20zener%20current.png" height="497" style="max-width: 100%;">
+<img src="images/ADR1399%20output%20noise%20vs%20zener%20current.png" height="497">
 
 ### VRE102CA voltage reference noise in batch of 8
 
