@@ -38,7 +38,7 @@ It is known that the internal schematic of LM399 means that as long as a minimum
 
 Powered from +/-14V supply, with positive reference output going into 0.1 - 10Hz LNA.
 
-![VRE102CA](images/VRE102CA.png)
+<img src="images/VRE102CA.png" height="253">
 
 ### LTZ1000 unheated TC
 
@@ -47,7 +47,7 @@ Corrected TC with 17 ohm resistor = around 0 PPM/C.
 
 Top line in each series is the heat up (using internal heater), bottom line is the cool down.
 
-![LTZ1000](images/LTZ1000%20unheated%20TC.png)
+<img src="images/LTZ1000%20unheated%20TC.png" height="1183">
 
 ### Solartron 7081 warmup with 10V input, comparison of 2 firmwares
 
