@@ -38,7 +38,7 @@ It is known that the internal schematic of LM399 means that as long as a minimum
 
 Powered from +/-14V supply, with positive reference output going into 0.1 - 10Hz LNA.
 
-<img src="images/VRE102CA.png" height="253">
+<img src="images/VRE102CA.png" height="166">
 
 ### LTZ1000 unheated TC
 
