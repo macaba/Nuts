@@ -18,6 +18,6 @@ Calculated current:
 
 ![Schematic](images/Current.png)
 
-It can be seen that the final input bias (+ other unknown leakage sources) is around 0.24fA. This offset is removed and a new plot generated:
+It can be seen that the final leakage (LMC662 input bias + other unknown leakage sources) is around 0.24fA. This offset is removed and a new plot generated:
 
 ![Schematic](images/CurrentWithOffsetRemoved.png)
