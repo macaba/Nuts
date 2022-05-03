@@ -2,6 +2,8 @@
 
 The purpose is to test the settling time of LMC662 + AVX MLO combination as an integrating electrometer. Upon powering the LMC662, a 0.6V offset appears on the LM662 output (perhaps non-symmetrical power ramp up biasing through ESD diodes?) which is a useful feature for the purposes of this experiment. 
 
+Circuit is mounted on protoboard, and is doubly shielded; inner shield at Vcom and outer shield (a steel cabinet) at earth.
+
 After 24 hours at 0V, the circuit is powered up causing a 0.6V step change over the feedback capacitors, the integrator output is then measured for the next 4 hours.
 
 Schematic:
