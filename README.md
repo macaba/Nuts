@@ -26,19 +26,19 @@ The ADR1399 datasheet discusses the improved output dynamic impedance for reduci
 
 With heater+ at 15V, and heater- swept from 0V to -15V (to give 15-30V heater voltage range), output voltage coefficient is 0.37 ppm/V. Heater+ is fixed at 15V as this also supplies the zener current (through 2.35k Rshunt).
 
-![ADR1399](images/ADR1399%20output%20voltage%20deviation%20vs%20heater%20voltage.png)
+<img src="images/ADR1399%20output%20voltage%20deviation%20vs%20heater%20voltage.png" height="305">
 
 ### ADR1399 output voltage noise vs. reference current
 
 It is known that the internal schematic of LM399 means that as long as a minimum current condition is met, there should not be any change in output voltage noise for higher currents as the actual zener current is fixed. This is confirmation that the ADR1399 is the same. 1mA is below the allowable range of reference current, it is shown here as a point of interest.
 
-![ADR1399 noise](images/ADR1399%20output%20noise%20vs%20zener%20current.png)
+<img src="images/ADR1399%20output%20noise%20vs%20zener%20current.png" height="497">
 
 ### VRE102CA voltage reference noise in batch of 8
 
 Powered from +/-14V supply, with positive reference output going into 0.1 - 10Hz LNA.
 
-![VRE102CA](images/VRE102CA.png)
+<img src="images/VRE102CA.png" height="166">
 
 ### LTZ1000 unheated TC
 
@@ -47,7 +47,7 @@ Corrected TC with 17 ohm resistor = around 0 PPM/C.
 
 Top line in each series is the heat up (using internal heater), bottom line is the cool down.
 
-![LTZ1000](images/LTZ1000%20unheated%20TC.png)
+<img src="images/LTZ1000%20unheated%20TC.png" height="1183">
 
 ### Solartron 7081 warmup with 10V input, comparison of 2 firmwares
 
