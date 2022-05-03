@@ -14,7 +14,7 @@ Raw data from DMM6500 (1V range, 1NPLC, autozero on & filter enabled to generate
 
 ![Schematic](images/RawVoltage.png)
 
-Computed current values:
+Calculated current values:
 
 ![Schematic](images/Current.png)
 
