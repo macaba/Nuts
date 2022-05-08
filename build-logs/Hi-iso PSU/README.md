@@ -6,7 +6,7 @@
 
 PCB using LT3439 and custom wound transformer with bifilar winding and air gap from winding to core. Estimated effective coupling capacitance is 0.22pF, the following describes the process of deducing this.
 
-![PCB](images/HIPSU.jpg)
+![PCB](images/HIPSU2.jpg)
 
 Looking at one side of the primary drive waveform, it can be seen that primary frequency is 21.96kHz, shown as 10.98kHz due to push-pull configuration:
 
