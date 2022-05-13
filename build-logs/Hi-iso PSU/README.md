@@ -44,7 +44,7 @@ Adding a shield on the primary was not effective.
 
 ## Middle shield tap
 
-- Twisteed pair with middle 0V shield tap = 600mVpp
+- Twisted pair with middle 0V shield tap = 600mVpp
 
 ![Mid-shield](images/MidShield.jpg)
 
