@@ -37,6 +37,8 @@ It is known that the internal schematic of LM399 means that as long as a minimum
 
 ### ADR1399 unheated tempco
 
+7.8 PPM/degC, linear for 15 to 29 degC range.
+
 Data from eevblog shows that for the LM399, the unheated tempco does vary significantly from device to device so this measurement of one ADR1399 is mainly for curiosity as it's likely to have similar behaviour.
 
 <img src="images/ADR1399%20unheated%20tempco.png" height="346">
