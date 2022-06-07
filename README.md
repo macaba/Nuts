@@ -5,7 +5,7 @@ An assortment of data and observations regarding electronics metrology and preci
 ## Charts table of contents
 [ADR1399 output voltage deviation vs. heater voltage](#adr1399-output-voltage-deviation-vs-heater-voltage)  
 [ADR1399 output voltage noise vs. reference current](#adr1399-output-voltage-noise-vs-reference-current)  
-[ADR1399 unheated tempco](#adr1399-unheated-tempco)
+[ADR1399 unheated tempco](#adr1399-unheated-tempco)  
 [VRE102CA voltage reference noise in batch of 8](#vre102ca-voltage-reference-noise-in-batch-of-8)  
 [LTZ1000 unheated TC](#ltz1000-unheated-tc)  
 [Solartron 7081 warmup with 10V input, comparison of 2 firmwares](#solartron-7081-warmup-with-10v-input-comparison-of-2-firmwares)  
