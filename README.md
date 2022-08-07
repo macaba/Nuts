@@ -2,6 +2,8 @@
 
 An assortment of data and observations regarding electronics metrology and precision analog electronics.
 
+Click on images to view full size.
+
 ## Charts table of contents
 [ADR1399 output voltage deviation vs. heater voltage](#adr1399-output-voltage-deviation-vs-heater-voltage)  
 [ADR1399 output voltage noise vs. reference current](#adr1399-output-voltage-noise-vs-reference-current)  
@@ -15,7 +17,8 @@ An assortment of data and observations regarding electronics metrology and preci
 [MOSFET Idss leakage with 0V gate at 21°C](#mosfet-idss-leakage-with-0v-gate-at-21c)  
 [OPA140 CMRR](#opa140-cmrr)  
 [LT3042 & LT3093 low frequency noise](#lt3042--lt3093-low-frequency-noise)  
-[G3VM-41GR6 SSR off-leakage](#g3vm-41gr6-ssr-off-leakage)
+[G3VM-41GR6 SSR off-leakage](#g3vm-41gr6-ssr-off-leakage)  
+[NSD](#nsd)
 
 ## Schematics table of contents
 [Feedforward bootstrap](#feedforward-bootstrap)
@@ -87,25 +90,31 @@ Connected a lead from the PE screw on the rear panel, to the current input, digi
 
 Using Keithley 617 electrometer, with +/-100V DAC output, to sweep the drain pin of MOSFETs from 0.1V to maxV, gate pin and source pin shorted together and wired into electrometer input. FOM is (10V/(datasheet RDS))/(leakage at 10V) to provide a quick comparison point.
 
-![Leakage](images/MOSFET%20leakage.png)
+<img src="images/MOSFET%20leakage.png" height="246">
 
 ### OPA140 CMRR
 
 OPA140 configured as unity gain buffer. DMM measuring input-to-output. Measured CMRR = 142dB.
 
-![Leakage](images/OPA140%20CMRR.png)
+<img src="images/OPA140%20CMRR.png" height="240">
 
 ### LT3042 & LT3093 low frequency noise
  
  22uF Cset. Datasheet hides the 0.1-10 Hz region for good reason...
- 
-![Leakage](images/LT%20LDO%20noise.png)
+
+<img src="images/LT%20LDO%20noise.png" height="160">
 
 ### G3VM-41GR6 SSR off-leakage
 
 Using Keithley 617 electrometer, with +/-100V DAC output, to sweep a pin of the SSR from 0.1V to 40V. Other pin wired to electrometer input.
 
-![SSR leakage](images/G3VM-41GR6%20off%20leakage.png)
+<img src="images/G3VM-41GR6%20off%20leakage.png" height="180">
+
+### NSD
+
+Low frequency NSD estimation of various op-amps and ADCs.
+
+<img src="images/NSD.png" height="240">
 
 ## Schematics
 ### Feedforward bootstrap
