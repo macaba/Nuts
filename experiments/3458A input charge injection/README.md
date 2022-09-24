@@ -2,7 +2,7 @@
 
 ![Setup](images/Setup.jpg)
 
-Keithley 428 (K428) current amplifier input wired to 3458A input, 1E06 V/A range. K428 output connected to MSO5074. 3458A on 10V range.
+Keithley 428 (K428) current amplifier input wired to 3458A input, 1E6 V/A range. K428 output connected to MSO5074. 3458A on 10V range.
 
 K428 voltage bias swept from -5V to 5V to observe change in charge injection.
 
@@ -26,3 +26,14 @@ Peak-peak value range from 1.42uApp to 2.16uApp.
 
 Peak-peak value range from 0.60uApp to 1.08uApp.
 
+## K428 bandwidth limitation
+
+Switching to 1E5 range gives a little more bandwidth. 
+
+Before (1E6)
+
+![LargePulse1E6](images/Large%20pulse/0V.png)
+
+After (1E5)
+
+![LargePulse1E5](images/1E5_large_pulse_0V.png)
