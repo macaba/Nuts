@@ -4,7 +4,12 @@ An assortment of data and observations regarding electronics metrology and preci
 
 Click on images to view full size.
 
-## Charts table of contents
+## Experiments TOC
+
+[LMC662 integrator with AVX MLO](https://github.com/macaba/Nuts/tree/main/experiments/LMC662%20integrator%20with%20AVX%20MLO)  
+[3458A input charge injection](https://github.com/macaba/Nuts/tree/main/experiments/3458A%20input%20charge%20injection)
+
+## Charts TOC
 [ADR1399 output voltage deviation vs. heater voltage](#adr1399-output-voltage-deviation-vs-heater-voltage)  
 [ADR1399 output voltage noise vs. reference current](#adr1399-output-voltage-noise-vs-reference-current)  
 [ADR1399 unheated tempco](#adr1399-unheated-tempco)  
@@ -20,7 +25,7 @@ Click on images to view full size.
 [G3VM-41GR6 SSR off-leakage](#g3vm-41gr6-ssr-off-leakage)  
 [NSD](#nsd)
 
-## Schematics table of contents
+## Schematics TOC
 [Feedforward bootstrap](#feedforward-bootstrap)
 
 ## Charts
