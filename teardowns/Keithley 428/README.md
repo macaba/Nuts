@@ -35,3 +35,17 @@
 <img src="images/Under-the-mezzanine-left.jpg">
 
 <img src="images/Under-the-mezzanine-right.jpg">
+
+## Bottom
+
+<img src="images/Bottom.jpg">
+
+<img src="images/Bottom-under-the-shield.jpg">
+
+## Front wall
+
+<img src="images/Front-wall.jpg">
+
+## Back wall
+
+<img src="images/Back-wall.jpg">
