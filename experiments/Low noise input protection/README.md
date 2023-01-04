@@ -12,8 +12,8 @@ Behaviour:
 
 10V input JFET temperature:
 
-![Schematic](images/10V input.png)
+![10V](images/10V-input.png)
 
 25V input JFET temperature:
 
-![Schematic](images/25V input.png)
+![25V](images/25V-input.png)
