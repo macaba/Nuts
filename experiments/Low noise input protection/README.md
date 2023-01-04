@@ -4,7 +4,7 @@ When trying to protect noise sensitive inputs (like nanovolt amplifiers), it can
 
 ![Schematic](images/Schematic.png)
 
-In this protection circuit, a JFET is used as a constant current limiter. The maximum protection voltage is limited by the rating of the JFET (25V in this case) and careful selection of the JFET is required to not introduce additional noise.
+In this protection circuit, a JFET is used as a constant current limiter. Leakage through D2 to the JFET ensures proper operation. D3 clamps the output voltage. The maximum protection voltage is limited by the rating of the JFET (25V in this case) and careful selection of the JFET is required to not introduce additional noise.
 
 Behaviour:
 10V input = 24mA current, 0.87V on output.
