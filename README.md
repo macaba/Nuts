@@ -7,7 +7,8 @@ Click on images to view full size.
 ## Experiments TOC
 
 [LMC662 integrator with AVX MLO](https://github.com/macaba/Nuts/tree/main/experiments/LMC662%20integrator%20with%20AVX%20MLO)  
-[3458A input charge injection](https://github.com/macaba/Nuts/tree/main/experiments/3458A%20input%20charge%20injection)
+[3458A input charge injection](https://github.com/macaba/Nuts/tree/main/experiments/3458A%20input%20charge%20injection)  
+[Low noise input protection](https://github.com/macaba/Nuts/blob/main/experiments/Low%20noise%20input%20protection)
 
 ## Charts TOC
 [ADR1399 output voltage deviation vs. heater voltage](#adr1399-output-voltage-deviation-vs-heater-voltage)  
