@@ -31,7 +31,7 @@ Click on images to view full size.
 [Feedforward bootstrap](#feedforward-bootstrap)
 
 ## Other notable repos
-[Nanovoltmeter](https://github.com/jaromir-sukuba/nvm)
+[Nanovoltmeter](https://github.com/jaromir-sukuba/nvm)  
 [Noise measurements](https://github.com/pavel212/noise)
 
 ## Charts
