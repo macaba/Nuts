@@ -30,6 +30,10 @@ Click on images to view full size.
 ## Schematics TOC
 [Feedforward bootstrap](#feedforward-bootstrap)
 
+## Other notable repos
+[Nanovoltmeter](https://github.com/jaromir-sukuba/nvm)  
+[Noise measurements](https://github.com/pavel212/noise)
+
 ## Charts
 ### ADR1399 output voltage deviation vs. heater voltage
 
