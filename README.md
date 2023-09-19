@@ -30,6 +30,11 @@ Click on images to view full size.
 ## Schematics TOC
 [Feedforward bootstrap](#feedforward-bootstrap)
 
+## Other repos (my own)
+[NSD](https://github.com/macaba/NSD)  
+[HIT](https://github.com/macaba/HIT)  
+[ExperimentalData](https://github.com/macaba/ExperimentalData)
+
 ## Other notable repos
 [Nanovoltmeter](https://github.com/jaromir-sukuba/nvm)  
 [Noise measurements](https://github.com/pavel212/noise)
