@@ -1,0 +1,1 @@
+To install, unzip into Documents\KiCad\7.0\template
