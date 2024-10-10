@@ -144,3 +144,29 @@ Linearity sweep repeated using ultra linear DAC & 3458A confirmation
 Improves CMRR and other similar effects.
 
 ![Bootstrap](images/Feedforward%20bootstrap.png)
+
+## Good parts to keep in stock
+
+OPA140  
+OPA2140  
+OPA202  
+OPA2202  
+OPA210  
+OPA2210  
+OPA189  
+LTC2057  
+LMC662  
+  
+JFE2140  
+THP210  
+TMUX6136  
+TMUX7234  
+TMUX1134  
+DG419  
+NOMCT16031002  
+2N7002H  
+MMBT3904  
+MMBT3906  
+NSVJ3910  
+BAV199  
+SN74LV4053A (TI)  
